@@ -4,13 +4,12 @@
             <a href="#" data-target="mobile-menu" class="sidenav-trigger">
                 <i class="material-icons">menu</i>
             </a>
-
             <ul class="right">
                 <li><a href="#"><i class="material-icons">favorite_border</i></a></li>
                 <li><a href="#"><i class="material-icons">shopping_cart</i></a></li>
                 <li><a href="#"><i class="material-icons">account_circle</i></a></li>
             </ul>
-
+        </div>
     </nav>
     <ul class="sidenav" id="mobile-menu">
         <li><a href="#">Promoções</a></li>
