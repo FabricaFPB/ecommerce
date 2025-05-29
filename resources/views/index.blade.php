@@ -22,20 +22,53 @@
         @include('partials.cardCategoria', ['titulo' => 'Informática', 'corTitulo' => 'White', 'imagem' => asset('images/imgInformatica.jpg'), 'link' => ''])
     </div>
     <div class="row">
-        <h5>Produtos mais vendidos</h5>
+        <h5>Produtos da Categoria</h5>
+        <div class="col s12 m6 l6">
+            @include('partials.cardProduto', [
+                'link' => route('produtodetalhe'),
+                'titulo' => 'Secador Profissional',
+                'imagem' => asset('images/imgBeleza.jpg'),
+                'corTitulo' => 'Black',
+                'corDesc' => 'Secador potente com 3 velocidades',
+                'precoProduto' => 'Por R$ 180,99',
+                'precoAntigo' => 'De R$ 220,99'
+            ])
+        </div>
+            <div class="col s12 m6 l6">
         @include('partials.cardProduto', [
             'link' => route('produtodetalhe'),
-            'titulo' => 'Secador',
+            'titulo' => 'Chapinha Alisadora',
             'imagem' => asset('images/imgBeleza.jpg'),
             'corTitulo' => 'Black',
-            'corDesc' => 'Secador de cabelo',
-            'precoProduto' => 'Por R$ 180,99',
-            'precoAntigo' => 'De R$ 220,99'
+            'corDesc' => 'Chapinha profissional de cerâmica',
+            'precoProduto' => 'Por R$ 149,90',
+            'precoAntigo' => 'De R$ 199,90'
         ])
-        @include('partials.cardProduto', ['titulo' => 'Placa Mãe', 'imagem' => asset('images/imgInformatica.jpg'), 'corTitulo' => 'White', 'corDesc' => 'Placa mãe', 'precoProduto' => 'Por R$ 679,99', 'precoAntigo' => 'De R$ 999,99'])
-        @include('partials.cardProduto', ['titulo' => 'Livro', 'imagem' => asset('images/imgLazer.jpg'), 'corTitulo' => 'Blue', 'corDesc' => 'Livro', 'precoProduto' => 'Por R$ 55,99', 'precoAntigo' => 'De R$ 69,99'])
-        @include('partials.cardProduto', ['titulo' => 'Jogo de tabuleiro', 'imagem' => asset('images/imgLazer.jpg'), 'corTitulo' => 'Blue', 'corDesc' => 'Jogo de tabuleiro', 'precoProduto' => 'Por R$ 129,99', 'precoAntigo' => 'De R$ 159,99'])
+        </div>
+        <div class="col s12 m6 l6">
+        @include('partials.cardProduto', [
+            'link' => route('produtodetalhe'),
+            'titulo' => 'Shampoo Hidratante',
+            'imagem' => asset('images/imgBeleza.jpg'),
+            'corTitulo' => 'Black',
+            'corDesc' => 'Shampoo para cabelos secos',
+            'precoProduto' => 'Por R$ 29,99',
+            'precoAntigo' => 'De R$ 39,99'
+        ])
+        </div>
+        <div class="col s12 m6 l6">
+        @include('partials.cardProduto', [
+            'link' => route('produtodetalhe'),
+            'titulo' => 'Shampoo Hidratante',
+            'imagem' => asset('images/imgBeleza.jpg'),
+            'corTitulo' => 'Black',
+            'corDesc' => 'Shampoo para cabelos secos',
+            'precoProduto' => 'Por R$ 29,99',
+            'precoAntigo' => 'De R$ 39,99'
+        ])
+        </div>
     </div>
+</div>
     @include('partials.footer')
     <script>
         document.addEventListener('DOMContentLoaded', function () {

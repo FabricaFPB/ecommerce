@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('index');
 
 Route::get('/produtodetalhe', function () {
     return view('produtodetalhe');
@@ -21,3 +21,7 @@ Route::get('/login', function () {
 Route::get('/cadastro', function () {
     return view('cadastro');
 })->name('cadastro');
+
+Route::get('/categoria', function () {
+    return view('categoria');
+})->name('categoria');

@@ -4,8 +4,13 @@
             <a href="#" data-target="mobile-menu" class="sidenav-trigger">
                 <i class="material-icons">menu</i>
             </a>
+
+            <a href="{{ route('index') }}" class="brand-logo left hide-on-med-and-down" style="margin-left: 15px;">
+                E-commerce
+            </a>
+
             <ul class="center-menu hide-on-med-and-down">
-                <li><a href="#">Beleza</a></li>
+                <li><a href="{{ route('categoria') }}">Beleza</a></li>
                 <li><a href="#">Informática</a></li>
                 <li><a href="#">Lazer</a></li>
                 <li><a href="#">Beleza</a></li>
