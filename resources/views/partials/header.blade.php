@@ -13,7 +13,7 @@
 
             <ul class="right nav-icons">
                 <li><a href="#"><i class="material-icons">favorite_border</i></a></li>
-                <li><a href="#"><i class="material-icons">shopping_cart</i></a></li>
+                <li><a href="{{ route('carrinho') }}"><i class="material-icons">shopping_cart</i></a></li>
                 <li><a href="#"><i class="material-icons">account_circle</i></a></li>
             </ul>
         </div>
