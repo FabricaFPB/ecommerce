@@ -1,0 +1,33 @@
+.nav-wrapper {
+    background-color: #1565c0 !important;
+}
+
+.center-menu {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.center-menu li a {
+    font-size: 1.2rem;
+    padding: 0 20px;
+    font-weight: 500;
+}
+
+.nav-icons i {
+    font-size: 1.5rem;
+}
+
+.sidenav {
+    width: 250px;
+}
+
+.sidenav li a {
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.searchBar {
+    background-color: #1565c0 !important;
+}
