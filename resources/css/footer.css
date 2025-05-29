@@ -5,13 +5,16 @@
     margin-top: 60px;
 }
 
-/* Espaçamento para cabeçalhos */
-.page-footer h4, .page-footer h5 {
+.page-footer a:hover{
+    opacity: 50%;
+}
+
+.page-footer h4,
+.page-footer h5 {
     margin-bottom: 20px;
     font-weight: 500;
 }
 
-/* Espaçamento para listas */
 .page-footer ul {
     margin-top: 0;
 }
@@ -20,30 +23,13 @@
     margin-bottom: 10px;
 }
 
-/* Espaçamento para o slogan */
 .page-footer p {
     margin-top: 15px;
     margin-bottom: 20px;
 }
 
-/* Estilização dos ícones sociais */
 .social-icons {
     margin-top: 20px;
     display: flex;
     gap: 10px;
-}
-
-.social-icons a {
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 50%;
-    width: 36px;
-    height: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 0.3s ease;
-}
-
-.social-icons a:hover {
-    background-color: rgba(255, 255, 255, 0.4);
 }
