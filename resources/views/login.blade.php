@@ -16,7 +16,7 @@
         <div class="login-container">
             <h4 class="login-title">Login</h4>
             
-            <form class="login-form">
+            < class="login-form">
                 <div class="input-field">
                     <label for="email">Email:</label>
                     <input type="email" id="email" class="validate" required>
@@ -27,9 +27,9 @@
                     <input type="password" id="password" class="validate" required>
                 </div>
                 
-                <button type="submit" class="btn blue btn-login waves-effect waves-light">
+                <a href="{{ route('perfil') }} "><button type="submit" class="btn blue btn-login waves-effect waves-light">
                     Acessar
-                </button>
+                </button></a>
                 
                 <div class="login-footer">
                 Ainda não possui uma conta? <a href="{{ route('cadastro') }}" class="blue-text">Registre-se</a>

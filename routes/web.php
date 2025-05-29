@@ -25,3 +25,12 @@ Route::get('/cadastro', function () {
 Route::get('/categoria', function () {
     return view('categoria');
 })->name('categoria');
+
+Route::get('/perfil', function () {
+    return view('profile');
+})->name('perfil');
+
+Route::get('/profile', function () {
+    return view('profile');
+})->name('perfil');
+
